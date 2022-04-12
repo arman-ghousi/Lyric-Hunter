@@ -1,6 +1,6 @@
 # Lyric Hunter
 
-** Lyric Hunter ** is a React app create to search for song lyrics with song's Artist and its title.
+**Lyric Hunter** is a React app create to search for song lyrics with song's Artist and its title.
 
 ## How to start
 
