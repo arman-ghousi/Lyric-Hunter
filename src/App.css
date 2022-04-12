@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #3d4240;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1d2b1f;
+  border-radius: 20px;
+}
+
+#lyric {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #171e1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner {
+  font-size: 75px;
+  font-weight: 100;
+  margin: 50px;
+  /* font-family: 'Mali', cursive; */
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
+#search {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search input {
+  width: 100%;
+  color: #171e1b;
+  padding: 15px;
+  margin: 7px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#search button {
+  width: 25%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #88c491;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+#search button:hover {
+  background-color: #ffffff;
+  color: #171e1b;
+}
+
+#lyric-container {
+  width: 85%;
+  height: 500px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  overflow-y: auto;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 426px) {
+
+  #banner {
+    font-size: 1.8em;
+  }
+
+  #search input {
+    width: 90%;
+    padding: 15px;
+  }
+
+  #search button {
+    width: 80%;
+    padding: 10px;
+  }
+}
